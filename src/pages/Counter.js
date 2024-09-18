@@ -19,6 +19,8 @@ return(
                     <div className="button d-flex justify-content-center">
                         <button className="btn btn-danger mx-2" onClick={dec}>DEC</button>
                         <button className="btn btn-success mx-2" onClick={inc}>INC</button>
+                        <button className="btn btn-success mx-2" onClick={inc}>INC</button>
+                        <button className="btn btn-success mx-2" onClick={inc}>INC</button>
                     </div>
                 </div>
             </div>
