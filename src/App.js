@@ -1,24 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './layout/Header';
+import HeaderClass from './layout/HeaderClass';
+import Footer from './layout/Footer';
+import FooterClass from './layout/FooterClass';
+import Counter from './pages/Counter';
+import CounterClass from './pages/CounterClass';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <Header></Header> */}
+    <HeaderClass></HeaderClass>
+    {/* <Counter></Counter> */}
+    <CounterClass></CounterClass>
+    {/* <Footer></Footer> */}
+    <FooterClass></FooterClass>
+    </>
   );
 }
 
